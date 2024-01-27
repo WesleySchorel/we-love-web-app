@@ -1,0 +1,39 @@
+{
+  "id": "project",
+  "label": "project",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "title",
+          "placeholder": ""
+        }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "description",
+          "placeholder": ""
+        }
+      },
+      "project_image": {
+        "type": "Image",
+        "config": {
+          "label": "project_image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

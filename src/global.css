@@ -1,0 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+
+:root {
+    /* For brighter backgrounds */
+    --c-background: rgb(255, 255, 255);
+    --c-primary-text: rgb(26, 26, 26);
+    --c-secondary-text: rgb(26, 26, 26);
+
+    /* For darker backgrounds */
+    --c-opossing-text: rgb(255, 255, 255);
+    --c-opossing-background: rgb(26, 26, 26);
+    --c-opossing-hover: rgb(255, 225, 236);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--c-background);
+    color: var(--c-primary-text);
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+}

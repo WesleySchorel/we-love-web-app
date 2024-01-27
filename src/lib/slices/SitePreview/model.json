@@ -1,0 +1,34 @@
+{
+  "id": "site_preview",
+  "type": "SharedSlice",
+  "name": "SitePreview",
+  "description": "SitePreview",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "laptop": {
+          "type": "Image",
+          "config": {
+            "label": "laptop",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

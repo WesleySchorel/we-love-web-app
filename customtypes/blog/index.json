@@ -1,0 +1,38 @@
+{
+  "id": "blog",
+  "label": "blog",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "title",
+          "placeholder": ""
+        }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "description",
+          "placeholder": ""
+        }
+      },
+      "read_time": {
+        "type": "Text",
+        "config": {
+          "label": "read_time",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
